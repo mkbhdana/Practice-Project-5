@@ -1,0 +1,21 @@
+//- layout.pug
+doctype html
+html
+  head
+    title Dance Academy Site
+    block scripts
+    block style
+  body
+    nav#navbar 
+      ul 
+        div#logo
+          img(src="/static/logo.png", height="30px", width="30px")
+          | DA
+        li #[a(href="/") Home ]
+        li #[a(href="/") About ]
+        li #[a(href="/") Services ]
+        li #[a(href="/") Pricing]
+        li #[a(href="/contact") Contact Us]
+    block content
+    footer#footer   
+            | Copyright @ 2022 DanceAcademy.com. All Rights Reserved. 
